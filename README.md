@@ -17,4 +17,4 @@ You can find the full text at https://itch.io/jam/polyspace1
 - Game MUST include leaderboard system
 
 ## About poject
-This project is a part of IFMO's ["Dev Days, Fall 2019"](https://wiki.compscicenter.ru/index.php/Devdays_Осень_2019). It supposed to live a bit longer than itch.io contest and start a bit eralier than Dev Days :)
+This project is a part of IFMO's ["Dev Days, Fall 2019"](https://wiki.compscicenter.ru/index.php/Devdays_Осень_2019). It supposed to live a bit longer than itch.io contest and start a bit earlier than Dev Days :)
