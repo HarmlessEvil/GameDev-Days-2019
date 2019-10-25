@@ -18,3 +18,6 @@ You can find the full text at https://itch.io/jam/polyspace1
 
 ## About poject
 This project is a part of IFMO's ["Dev Days, Fall 2019"](https://wiki.compscicenter.ru/index.php/Devdays_Осень_2019). It supposed to live a bit longer than itch.io contest and start a bit earlier than Dev Days :)
+
+## Links
+- [Trello board](https://trello.com/b/qa78vS9e/gamedev-days-2019)
