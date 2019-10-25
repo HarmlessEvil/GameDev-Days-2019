@@ -1,4 +1,4 @@
-# GameDev-Days-2019
+# GameDev-Days-2019: **"The 80's"**
 Repository for Game Jam 2019 on [https://itch.io](https://itch.io/jam/polyspace1)
 
 ## Stack
