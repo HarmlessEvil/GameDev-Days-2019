@@ -17,7 +17,25 @@ Your C# code have to correspond to the standard code conventions: https://docs.m
 ### Unity resources folders
 
 You should place all project resources to the dedicated directories inside of project. It's prohibited to use absolute paths in a project.
+Project directory tree should be as follows:
+```
+- Animations/
+- Fonts/
+- Materials/
+- Prefabs/
+- Resources/
+- Scenes/
+- Scripts/
+- Sprites/
+| - Managers/
+| - Preload/
+| - <others...>
+- UI/
+```
+
 
 ### Unity Scenes
 
 Every contributor should have his own scene for avoiding the conflicts.
+
+Project should have `__preload` scene to keep all managers here.
