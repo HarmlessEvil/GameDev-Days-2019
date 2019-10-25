@@ -3,7 +3,7 @@ Repository for Game Jam 2019 on [https://itch.io](https://itch.io/jam/polyspace1
 
 ## Stack
 
-- Unity 3D (version xxxx.xx)
+- Unity 3D (version 2019.2.10f1)
 - C# 4.0
 
 ## Game Jam rules
