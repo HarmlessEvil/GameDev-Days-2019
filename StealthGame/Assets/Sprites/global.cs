@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public static class global 
+public class global 
 {
     public static float music;
     public static float sound;
