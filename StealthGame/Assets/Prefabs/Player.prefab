@@ -15,9 +15,10 @@ GameObject:
   - component: {fileID: 760792244}
   - component: {fileID: 6176543130294530640}
   - component: {fileID: 2383064633235469104}
+  - component: {fileID: 346010551}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -73,7 +74,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -975591255
   m_SortingLayer: 1
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 7461992764952496723, guid: 58ab12a4617ba5048bc7a12bc6894a2d,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -261,3 +262,15 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &346010551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6176543130885388028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68ee76472e0082547a2e29017e467d93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
