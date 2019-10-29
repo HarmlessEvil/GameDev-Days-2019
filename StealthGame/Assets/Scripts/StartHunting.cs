@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Rendering.PostProcessing;
 
 public class StartHunting : MonoBehaviour
 {
@@ -9,7 +8,17 @@ public class StartHunting : MonoBehaviour
 
     void StartTheHunt()
     {
-        enemy.StartHunting();
+        Vector3 direction = enemy.GetPlayer().position - transform.position + Vector3.up;
+        Ray ray = new Ray(transform.position, direction);
+        RaycastHit raycastHit;
+
+        if (Physics.Raycast(ray, out raycastHit))
+        {
+            if (raycastHit.collider.transform == enemy.GetPlayer())
+            {
+                enemy.StartHunting();
+            }
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

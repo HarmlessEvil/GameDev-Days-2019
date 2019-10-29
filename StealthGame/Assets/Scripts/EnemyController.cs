@@ -100,7 +100,17 @@ public class EnemyController : MonoBehaviour
 
     public void CatchPlayer()
     {
-        // Not implemented
-        gameOver.GetComponent<GameOver>().Show();
+        Vector3 direction = player.transform.position - transform.position + Vector3.up;
+        Ray ray = new Ray(transform.position, direction);
+        RaycastHit raycastHit;
+
+        if (Physics.Raycast(ray, out raycastHit))
+        {
+            if (raycastHit.collider.transform == player.transform)
+            {
+                gameOver.GetComponent<GameOver>().Show();
+                player.gameObject.GetComponent<GirlMovement>().Die();
+            }
+        }
     }
 }
