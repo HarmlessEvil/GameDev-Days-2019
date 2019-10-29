@@ -42,7 +42,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -168,7 +168,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 5641191799261092187}
-  soundManager: {fileID: 0}
 --- !u!1 &5641191800191559302
 GameObject:
   m_ObjectHideFlags: 0
@@ -244,7 +243,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 241076727
-  m_SortingLayer: 2
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: -8032469547316615628, guid: 30292aa3b5f32374ab90f431e3506035,
     type: 3}
@@ -375,6 +374,8 @@ MonoBehaviour:
   player: {fileID: 0}
   scoreManager: {fileID: 0}
   soundManager: {fileID: 0}
+  gameOver: {fileID: 0}
+  volume: {fileID: 0}
 --- !u!61 &1836534507
 BoxCollider2D:
   m_ObjectHideFlags: 0
