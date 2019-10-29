@@ -17,7 +17,7 @@ TagManager:
   - 
   - PostProcessingVolumes
   - Obstacles
-  - 
+  - Collectables
   - 
   - 
   - 
@@ -46,6 +46,8 @@ TagManager:
   - name: Player
     uniqueID: 3319376041
     locked: 0
+  - name: Collectables
+    uniqueID: 2924499009
   - name: Enemies
     uniqueID: 241076727
     locked: 0
