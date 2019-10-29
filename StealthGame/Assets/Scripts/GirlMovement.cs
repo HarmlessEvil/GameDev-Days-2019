@@ -5,6 +5,7 @@ using UnityEngine;
 public class GirlMovement : MonoBehaviour
 {
     public float moveSpeed = 1f;
+    int amountOfChasers = 0;
 
     Animator animator;
     float lastHorizontal, lastVertical;
@@ -12,6 +13,21 @@ public class GirlMovement : MonoBehaviour
     Rigidbody2D rb;
 
     Vector2 movement;
+
+    public void StartChasing()
+    {
+        ++amountOfChasers;
+    }
+
+    public void StopChasing()
+    {
+        --amountOfChasers;
+    }
+
+    public bool IsChased()
+    {
+        return amountOfChasers > 0;
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -25,6 +41,7 @@ public class GirlMovement : MonoBehaviour
     {
         movement.x = Input.GetAxis("Horizontal");
         movement.y = Input.GetAxis("Vertical");
+        movement.Normalize();
 
         if (Mathf.Approximately(movement.x, 0f) && Mathf.Approximately(movement.y, 0f))
         {
