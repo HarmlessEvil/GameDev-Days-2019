@@ -7,7 +7,7 @@ using UnityEngine.Rendering.PostProcessing;
 public class EnemyController : MonoBehaviour
 {
     public bool isHunting;
-    public float maxHuntingTime = 15f;
+    public float maxHuntingTime = 3f;
     public Transform player;
     public ScoreManager scoreManager;
     public SoundManager soundManager;
@@ -47,7 +47,7 @@ public class EnemyController : MonoBehaviour
         if (isHunting)
         {
             ai.destination = player.position;
-            ai.maxSpeed = 1.1f;
+            ai.maxSpeed = 0.9f;
             currentHuntingTime += Time.deltaTime;
 
             if (currentHuntingTime >= maxHuntingTime)
@@ -57,8 +57,6 @@ public class EnemyController : MonoBehaviour
 
                 var girl = player.gameObject.GetComponent<GirlMovement>();
                 girl.StopChasing();
-
-                Debug.Log("Girl is " + (girl.IsChased() ? "" : "not") + "chased");
 
                 if (!girl.IsChased())
                 {
