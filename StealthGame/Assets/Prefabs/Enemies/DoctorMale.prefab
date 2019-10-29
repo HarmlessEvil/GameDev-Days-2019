@@ -353,7 +353,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isHunting: 0
-  maxHuntingTime: 15
+  maxHuntingTime: 3
   player: {fileID: 0}
   scoreManager: {fileID: 0}
   soundManager: {fileID: 0}
