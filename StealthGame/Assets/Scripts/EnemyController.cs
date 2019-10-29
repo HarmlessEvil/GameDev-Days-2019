@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Pathfinding;
-using UnityEngine.UI;
+using UnityEngine.Rendering.PostProcessing;
 
 public class EnemyController : MonoBehaviour
 {
@@ -20,6 +20,9 @@ public class EnemyController : MonoBehaviour
     Animator animator;
     float lastHorizontal, lastVertical;
 
+    public PostProcessVolume volume;
+    ChromaticAberration ca = null;
+
     public Transform GetPlayer()
     {
         return player;
@@ -35,6 +38,8 @@ public class EnemyController : MonoBehaviour
         ai = GetComponent<IAstarAI>();
         animator = GetComponent<Animator>();
         gameOver = GameObject.FindGameObjectsWithTag("GameOver")[0];
+
+        volume.profile.TryGetSettings(out ca);
     }
 
     void Update()
@@ -58,6 +63,7 @@ public class EnemyController : MonoBehaviour
                 if (!girl.IsChased())
                 {
                     soundManager.PlayAmbientMusic();
+                    ca.enabled.value = false;
                 }
             }
         }
@@ -87,6 +93,7 @@ public class EnemyController : MonoBehaviour
             scoreManager.AddScore(-300);
             player.gameObject.GetComponent<GirlMovement>().StartChasing();
             soundManager.PlayBattleMusic();
+            ca.enabled.value = true;
         }
 
         isHunting = true;
