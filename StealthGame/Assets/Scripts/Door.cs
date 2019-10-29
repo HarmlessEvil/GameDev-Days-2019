@@ -27,7 +27,7 @@ public class Door : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
             Inventory inv = other.gameObject.GetComponent<Inventory>();
-            if (inv.Exs(ID, 1))
+            if (ID >= Key.DEFAULT_COLORS.Length || inv.Exs(ID, 1))
             {
                 animator.Play("DoorOpen");
                 colld.isTrigger = true;

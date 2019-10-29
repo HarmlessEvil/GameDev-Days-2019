@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Settings
   - button
+  - GameOver
   layers:
   - Default
   - TransparentFX
@@ -48,6 +49,7 @@ TagManager:
     locked: 0
   - name: Collectables
     uniqueID: 2924499009
+    locked: 0
   - name: Enemies
     uniqueID: 241076727
     locked: 0
