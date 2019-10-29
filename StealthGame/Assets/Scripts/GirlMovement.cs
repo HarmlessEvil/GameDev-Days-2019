@@ -7,6 +7,8 @@ public class GirlMovement : MonoBehaviour
     public float moveSpeed = 1f;
     int amountOfChasers = 0;
 
+    bool isMovementEnabled = true;
+
     Animator animator;
     float lastHorizontal, lastVertical;
 
@@ -29,16 +31,19 @@ public class GirlMovement : MonoBehaviour
         return amountOfChasers > 0;
     }
 
-    // Start is called before the first frame update
     void Start()
     {
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
     }
 
-    // Update is called once per frame
     void Update()
     {
+        if (!isMovementEnabled)
+        {
+            return;
+        }
+
         movement.x = Input.GetAxis("Horizontal");
         movement.y = Input.GetAxis("Vertical");
         movement.Normalize();
@@ -64,5 +69,10 @@ public class GirlMovement : MonoBehaviour
     private void FixedUpdate()
     {
         rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
+    }
+
+    public void Die()
+    {
+        isMovementEnabled = false;
     }
 }
