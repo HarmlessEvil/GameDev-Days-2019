@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Settings
+  - button
   layers:
   - Default
   - TransparentFX
@@ -46,4 +48,6 @@ TagManager:
     locked: 0
   - name: Collectables
     uniqueID: 2924499009
+  - name: Enemies
+    uniqueID: 241076727
     locked: 0
