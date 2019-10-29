@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Pathfinding;
+using UnityEngine.UI;
 
 public class EnemyController : MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class EnemyController : MonoBehaviour
     public Transform player;
     public ScoreManager scoreManager;
     public SoundManager soundManager;
+    public GameObject gameOver;
 
     float currentHuntingTime;
 
@@ -32,6 +34,7 @@ public class EnemyController : MonoBehaviour
     {
         ai = GetComponent<IAstarAI>();
         animator = GetComponent<Animator>();
+        gameOver = GameObject.FindGameObjectsWithTag("GameOver")[0];
     }
 
     void Update()
@@ -93,5 +96,6 @@ public class EnemyController : MonoBehaviour
     public void CatchPlayer()
     {
         // Not implemented
+        gameOver.GetComponent<GameOver>().Show();
     }
 }
