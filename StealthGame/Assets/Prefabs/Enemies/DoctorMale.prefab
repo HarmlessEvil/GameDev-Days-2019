@@ -93,6 +93,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 245158932450997523}
+  soundManager: {fileID: 0}
 --- !u!1 &645360972
 GameObject:
   m_ObjectHideFlags: 0
@@ -167,7 +168,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7a322dcf04768946ba53c067edc53c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemy: {fileID: 0}
+  enemy: {fileID: 245158932450997523}
 --- !u!1 &7717562249956928225
 GameObject:
   m_ObjectHideFlags: 0
@@ -356,6 +357,7 @@ MonoBehaviour:
   maxHuntingTime: 15
   player: {fileID: 0}
   scoreManager: {fileID: 0}
+  soundManager: {fileID: 0}
 --- !u!114 &7717562251505648607
 MonoBehaviour:
   m_ObjectHideFlags: 0

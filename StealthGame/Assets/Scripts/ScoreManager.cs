@@ -28,7 +28,7 @@ public class ScoreManager : MonoBehaviour
         if (triggered && tick % 30 == 0)
         {
             scores -= 1;
-            Debug.Log(scores.ToString());
+            //Debug.Log(scores.ToString());
             tick = 0;
         }
         

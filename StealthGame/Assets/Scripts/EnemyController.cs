@@ -9,6 +9,7 @@ public class EnemyController : MonoBehaviour
     public float maxHuntingTime = 15f;
     public Transform player;
     public ScoreManager scoreManager;
+    public SoundManager soundManager;
 
     float currentHuntingTime;
 
@@ -45,6 +46,16 @@ public class EnemyController : MonoBehaviour
             {
                 isHunting = false;
                 ai.maxSpeed = 0.5f;
+
+                var girl = player.gameObject.GetComponent<GirlMovement>();
+                girl.StopChasing();
+
+                Debug.Log("Girl is " + (girl.IsChased() ? "" : "not") + "chased");
+
+                if (!girl.IsChased())
+                {
+                    soundManager.PlayAmbientMusic();
+                }
             }
         }
 
@@ -71,6 +82,8 @@ public class EnemyController : MonoBehaviour
         if (!isHunting)
         {
             scoreManager.AddScore(-300);
+            player.gameObject.GetComponent<GirlMovement>().StartChasing();
+            soundManager.PlayBattleMusic();
         }
 
         isHunting = true;
