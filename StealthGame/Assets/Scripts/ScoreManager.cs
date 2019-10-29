@@ -7,17 +7,19 @@ public class ScoreManager : MonoBehaviour
     private bool triggered;
     private int tick;
     private int scores;
-    // Start is called before the first frame update
+    
     void Start()
     {
-        scores = 3000;
+        scores = 0;
         tick = 0;
     }
 
-    public void TriggerTimer()
+    public void TriggerTimer(int score)
     {
         triggered = true;
+
         tick = 0;
+        scores += score;
     }
 
     void Update()
@@ -32,13 +34,18 @@ public class ScoreManager : MonoBehaviour
         
         if (scores <= 0)
         {
-            //Application.Quit();
+            scores = 0;
         }
     }
 
     public int Score()
     {
         return scores;
+    }
+
+    public void AddScore(int score)
+    {
+        scores += score;
     }
 
     public void StopTimer()

@@ -9,8 +9,6 @@ public class ScoreTrigger : MonoBehaviour
     private bool triggered = false;
     public ScoreManager EmptyScoreObj;
 
-    //void OnCollisionEntr()
-
     void OnTriggerEnter2D(Collider2D obj)
     {
         Debug.Log("I'm triggered!");
@@ -18,7 +16,7 @@ public class ScoreTrigger : MonoBehaviour
         {
             triggered = true;
             Debug.Log("I'm triggered!KKKK");
-            EmptyScoreObj.TriggerTimer();
+            EmptyScoreObj.TriggerTimer(3000);
         }
     }
 }

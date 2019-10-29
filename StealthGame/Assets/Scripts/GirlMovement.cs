@@ -25,6 +25,7 @@ public class GirlMovement : MonoBehaviour
     {
         movement.x = Input.GetAxis("Horizontal");
         movement.y = Input.GetAxis("Vertical");
+        movement.Normalize();
 
         if (Mathf.Approximately(movement.x, 0f) && Mathf.Approximately(movement.y, 0f))
         {
