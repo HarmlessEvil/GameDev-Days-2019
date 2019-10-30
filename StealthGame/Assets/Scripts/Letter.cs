@@ -23,7 +23,7 @@ public class Letter : MonoBehaviour
         {
             animator.Play("KeyPicking");
             scrollBar.SetActive(true);
-            letterText.text = "\n\n\n\n\n\n\nLOREM IPSUM";
+            //letterText.text = "\n\n\n\n\n\n\nLOREM IPSUM";
             Destroy(this.gameObject, 0.5f);
         }
     }

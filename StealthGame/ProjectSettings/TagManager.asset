@@ -3,7 +3,10 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Settings
+  - button
+  - GameOver
   layers:
   - Default
   - TransparentFX
@@ -14,9 +17,9 @@ TagManager:
   - 
   - 
   - PostProcessingVolumes
-  - 
-  - 
-  - 
+  - Obstacles
+  - Collectables
+  - Player
   - 
   - 
   - 
@@ -40,4 +43,13 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Player
+    uniqueID: 3319376041
+    locked: 0
+  - name: Collectables
+    uniqueID: 2924499009
+    locked: 0
+  - name: Enemies
+    uniqueID: 241076727
     locked: 0
