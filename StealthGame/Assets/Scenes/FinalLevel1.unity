@@ -132,83 +132,32 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scroll View (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3133024031563750746, guid: 0427550a7d350e7439ade2fd0ea28d57,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3133024030804515389, guid: 0427550a7d350e7439ade2fd0ea28d57,
         type: 3}
       propertyPath: m_Text
-      value: "\u041E\u0434\u0438\u043D \u0440\u0430\u0437, \u043A\u043E\u0433\u0434\u0430
-        \u044F \u0443\u0432\u0438\u0434\u0435\u043B\u0430, \u043A\u0430\u043A \u0432
-        \u043A\u043E\u0440\u0438\u0434\u043E\u0440\u0435 \u043F\u043B\u0430\u0447\u0435\u0442
-        \u043C\u0430\u043C\u0430, \u044F \u043F\u043E\u043D\u044F\u043B\u0430, \u0447\u0442\u043E
-        \u0432\u0440\u0435\u043C\u0435\u043D\u0438 \u0443 \u043C\u0435\u043D\u044F
-        \u043F\u043E\u0447\u0442\u0438 \u043D\u0435 \u043E\u0441\u0442\u0430\u043B\u043E\u0441\u044C.
-        \u0418 \u0442\u043E\u0433\u0434\u0430 \u044F \u0440\u0435\u0448\u0438\u043B\u0430
-        \u043D\u0430\u043F\u0438\u0441\u0430\u0442\u044C \u0432\u0441\u0435\u043C
-        \u043F\u0438\u0441\u044C\u043C\u0430, \u0447\u0442\u043E\u0431\u044B \u0438\u043C
-        \u043D\u0435 \u0431\u044B\u043B\u043E \u0433\u0440\u0443\u0441\u0442\u043D\u043E
-        \u0431\u0435\u0437 \u043C\u0435\u043D\u044F. \r\n\u041F\u0435\u0440\u0432\u043E\u0435
-        \u043F\u0438\u0441\u044C\u043C\u043E \u0442\u0435\u0431\u0435, \u043F\u0430\u043F\u0430.
-        \u042F \u0442\u0435\u0431\u044F \u0434\u0430\u0432\u043D\u043E \u043D\u0435
-        \u0432\u0438\u0434\u0435\u043B\u0430, \u043D\u043E \u0432\u0441\u0435 \u0440\u0430\u0432\u043D\u043E
-        \u043E\u0447\u0435\u043D\u044C \u043B\u044E\u0431\u043B\u044E. \u042F \u043F\u043E\u043C\u043D\u044E,
-        \u043A\u0430\u043A \u0442\u044B \u0446\u0435\u043B\u043E\u0432\u0430\u043B
-        \u043C\u0435\u043D\u044F \u0432 \u0449\u0435\u043A\u0443, \u0430 \u044F \u0441\u043C\u0435\u044F\u043B\u0430\u0441\u044C,
-        \u043F\u043E\u0442\u043E\u043C\u0443 \u0447\u0442\u043E \u0442\u044B \u043A\u043E\u043B\u044E\u0447\u0438\u0439
-        \u0451\u0436\u0438\u043A. \u0410 \u0435\u0449\u0435 \u0442\u044B \u043C\u0435\u043D\u044F
-        \u043A\u0440\u0443\u0436\u0438\u043B. \u041D\u043E \u043C\u043D\u0435 \u043D\u0435
-        \u0431\u044B\u043B\u043E \u0441\u0442\u0440\u0430\u0448\u043D\u043E, \u044F
-        \u0437\u043D\u0430\u043B\u0430, \u0447\u0442\u043E \u0442\u044B \u043C\u0435\u043D\u044F
-        \u043A\u0440\u0435\u043F\u043A\u043E \u0434\u0435\u0440\u0436\u0438\u0448\u044C
-        \u0438 \u043D\u0438 \u0437\u0430 \u0447\u0442\u043E \u043D\u0435 \u0443\u0440\u043E\u043D\u0438\u0448\u044C.
-        \u0410 \u0435\u0449\u0435 \u044F \u043F\u0440\u0438\u0442\u0432\u043E\u0440\u044F\u043B\u0430\u0441\u044C,
-        \u0447\u0442\u043E \u044F \u0441\u043F\u043B\u044E, \u0447\u0442\u043E\u0431\u044B
-        \u0442\u044B \u0432\u0437\u044F\u043B \u043C\u0435\u043D\u044F \u043D\u0430
-        \u0440\u0443\u043A\u0438 \u0438 \u043E\u0442\u043D\u0435\u0441 \u0432 \u043A\u0440\u043E\u0432\u0430\u0442\u044C.
-        \u042F \u043E\u0447\u0435\u043D\u044C \u043F\u043E \u0442\u0435\u0431\u0435
-        \u0441\u043A\u0443\u0447\u0430\u044E. \u0425\u043E\u0447\u0443, \u0447\u0442\u043E\u0431\u044B
-        \u0432\u044B \u0441 \u043C\u0430\u043C\u043E\u0439 \u043F\u043E\u043C\u0438\u0440\u0438\u043B\u0438\u0441\u044C,
-        \u0447\u0442\u043E\u0431\u044B \u043C\u044B \u0432\u0441\u0435 \u0432\u043C\u0435\u0441\u0442\u0435
-        \u0431\u044B\u043B\u0438 \u0434\u043E\u043C\u0430. \u042F \u0432\u0441\u0435
-        \u0438\u0441\u043F\u043E\u0440\u0442\u0438\u043B\u0430. \u041F\u043E\u044D\u0442\u043E\u043C\u0443
-        \u043F\u043E\u043C\u0438\u0440\u0438\u0442\u0435\u0441\u044C \u0441 \u043C\u0430\u043C\u043E\u0439,
-        \u043A\u043E\u0433\u0434\u0430 \u043C\u0435\u043D\u044F \u043D\u0435 \u0441\u0442\u0430\u043D\u0435\u0442.\r\n-
-        \u041C\u0430\u043C\u0430, \u0432\u0442\u043E\u0440\u043E\u0435 \u043F\u0438\u0441\u044C\u043C\u043E
-        \u0442\u0435\u0431\u0435. \u042F \u043E\u0447\u0435\u043D\u044C \u0441\u043A\u0443\u0447\u0430\u044E.
-        \u0418 \u043C\u043D\u0435 \u043E\u0447\u0435\u043D\u044C \u0441\u0442\u0440\u0430\u0448\u043D\u043E
-        \u043E\u0434\u043D\u043E\u0439. \u042F \u0437\u043D\u0430\u044E, \u0447\u0442\u043E
-        \u044F \u043F\u043B\u043E\u0445\u043E \u0441\u0435\u0431\u044F \u0432\u0435\u043B\u0430
-        \u0438 \u043C\u043D\u043E\u0433\u043E \u0431\u043E\u043B\u0435\u043B\u0430,
-        \u043D\u043E \u044F \u043F\u0440\u0430\u0432\u0434\u0430-\u043F\u0440\u0438-\u043F\u0440\u0430\u0432\u0434\u0430
-        \u043E\u0447\u0435\u043D\u044C \u043D\u0435 \u0445\u043E\u0442\u0435\u043B\u0430
-        \u0431\u043E\u043B\u0435\u0442\u044C. \u0422\u043E\u043B\u044C\u043A\u043E
-        \u043E\u0434\u0438\u043D \u0440\u0430\u0437 \u043F\u043E\u0434\u0443\u043C\u0430\u043B\u0430,
-        \u0447\u0442\u043E \u0445\u043E\u0447\u0443 \u043F\u0440\u043E\u043F\u0443\u0441\u0442\u0438\u0442\u044C
-        \u0448\u043A\u043E\u043B\u0443 \u0438 \u043B\u0435\u0436\u0430\u0442\u044C
-        \u0432 \u043A\u0440\u043E\u0432\u0430\u0442\u0438. \u041F\u043E\u0436\u0430\u043B\u0443\u0439\u0441\u0442\u0430,
-        \u043F\u0440\u043E\u0441\u0442\u0438 \u043C\u0435\u043D\u044F. \u042F \u0431\u043E\u043B\u044C\u0448\u0435
-        \u043D\u0438\u043A\u043E\u0433\u0434\u0430 \u043D\u0435 \u0431\u0443\u0434\u0443
-        \u0442\u0430\u043A \u0434\u0443\u043C\u0430\u0442\u044C. \u0415\u0441\u043B\u0438
-        \u0442\u044B \u043F\u0440\u0438\u0434\u0435\u0448\u044C, \u0442\u043E \u044F
-        \u043E\u0431\u044F\u0437\u0430\u0442\u0435\u043B\u044C\u043D\u043E \u043F\u043E\u0441\u0442\u0430\u0440\u0430\u044E\u0441\u044C
-        \u043F\u043E\u043F\u0440\u0430\u0432\u0438\u0442\u044C\u0441\u044F, \u0432\u0441\u0435\u0433\u0434\u0430
-        \u0431\u0443\u0434\u0443 \u0445\u043E\u0434\u0438\u0442\u044C \u0432 \u0448\u043A\u043E\u043B\u0443
-        \u0438 \u0432\u0441\u0435\u0433\u0434\u0430-\u0432\u0441\u0435\u0433\u0434\u0430
-        \u0431\u0443\u0434\u0443 \u0442\u0435\u0431\u044F \u0441\u043B\u0443\u0448\u0430\u0442\u044C\u0441\u044F!
-        \u0422\u043E\u043B\u044C\u043A\u043E \u043F\u0440\u0438\u0434\u0438, \u043F\u043E\u0436\u0430\u043B\u0443\u0439\u0441\u0442\u0430!
-        \u041C\u043D\u0435 \u043E\u0447\u0435\u043D\u044C-\u043E\u0447\u0435\u043D\u044C
-        \u0441\u0442\u0440\u0430\u0448\u043D\u043E. \u042F \u043E\u0447\u0435\u043D\u044C
-        \u0441\u0438\u043B\u044C\u043D\u043E \u043B\u044E\u0431\u043B\u044E \u0442\u0435\u0431\u044F,
-        \u043C\u0430\u043C\u043E\u0447\u043A\u0430. \u041C\u043D\u0435 \u043E\u0447\u0435\u043D\u044C
-        \u0436\u0430\u043B\u044C, \u0447\u0442\u043E \u0442\u044B \u0438\u0437-\u0437\u0430
-        \u043C\u0435\u043D\u044F \u0433\u0440\u0443\u0441\u0442\u0438\u0448\u044C.
-        \u041F\u043E\u0436\u0430\u043B\u0443\u0439\u0441\u0442\u0430, \u043D\u0435
-        \u043F\u043B\u0430\u0447\u044C \u0431\u043E\u043B\u044C\u0448\u0435, \u043A\u043E\u0433\u0434\u0430
-        \u044F \u0443\u0439\u0434\u0443. \u042F \u043E\u0447\u0435\u043D\u044C \u043D\u0435
-        \u0445\u043E\u0447\u0443, \u0447\u0442\u043E\u0431\u044B \u0442\u044B \u043F\u043B\u0430\u043A\u0430\u043B\u0430.
-        \u0422\u044B \u043E\u0447\u0435\u043D\u044C \u043A\u0440\u0430\u0441\u0438\u0432\u0430\u044F
-        \u0438 \u0434\u043E\u0431\u0440\u0430\u044F. \u041F\u0443\u0441\u0442\u044C
-        \u0443 \u0442\u0435\u0431\u044F \u0431\u0443\u0434\u0435\u0442 \u043D\u043E\u0432\u0430\u044F,
-        \u0445\u043E\u0440\u043E\u0448\u0430\u044F \u0434\u043E\u0447\u043A\u0430,
-        \u043A\u043E\u0433\u0434\u0430 \u044F \u0443\u043C\u0440\u0443.\r"
+      value: "Once, when I saw my mother crying in the corridor, I realized that I
+        had almost no time left. And then I decided to write letters to everyone so
+        that they would not be sad without me.\r\nFirst letter to you, Dad. I haven\u2019t
+        seen you for a long time, but I still love you very much. I remember how you
+        kissed me on the cheek, and I laughed. And you circled me. But I wasn't afraid,
+        I knew that you held me tight and would never drop me. And I pretended that
+        I was sleeping so that you would pick me up and take me to bed. I miss you
+        so much. I want you and your mom to make peace, so that we can all be at home
+        together. I spoiled it all. Therefore, make peace with mom when I am gone.\r\n\r\nMom,
+        second letter to you. I really miss you. And I am very scared. I know that
+        I behaved bad, but I really didn't want to get sick. Only once thought that
+        I wanted to skip school and lay in bed. Please forgive me. I will never think
+        so again. If you come, then I will definitely try to get better, I will always
+        go to school and I will always listen you! Just come, please! I am very, very
+        scared. I love you very much, mommy. I am very sorry that you are sad because
+        of me. Please don't cry anymore when I leave. I really don't want you to cry.
+        You are very beautiful and kind. May you have a new, good daughter when I
+        die."
       objectReference: {fileID: 0}
     - target: {fileID: 3133024031563750747, guid: 0427550a7d350e7439ade2fd0ea28d57,
         type: 3}
@@ -628,6 +577,20 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 136249382}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &136249384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 136249383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72ff53e18d4b05945a95e7cd9f5ec6f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  leaderboardClass: {fileID: 1207385856}
+  leaderboardPanel: {fileID: 1932331279}
 --- !u!1001 &140669565
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -847,6 +810,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: LevelCompleted
       objectReference: {fileID: 0}
+    - target: {fileID: 1927868360954978493, guid: f44ada9b787959044922184690f50ab7,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1927868360954978482, guid: f44ada9b787959044922184690f50ab7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -996,6 +964,12 @@ PrefabInstance:
         type: 3}
       propertyPath: m_FontData.m_VerticalOverflow
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1201741093, guid: f44ada9b787959044922184690f50ab7, type: 3}
+      propertyPath: m_Text
+      value: 'Press ''r'' to restart
+
+        Press ''b'' to show leaderboard'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f44ada9b787959044922184690f50ab7, type: 3}
@@ -2266,16 +2240,8 @@ PrefabInstance:
     - target: {fileID: 8796924578022187822, guid: 1eb89f39326d6944bbc041ecb671b2c5,
         type: 3}
       propertyPath: phrase
-      value: "- \u042F \u0441\u043F\u0430\u043B\u0430, \u0430 \u043C\u0430\u043C\u0430
-        \u0434\u0435\u0440\u0436\u0430\u043B\u0430 \u043C\u0435\u043D\u044F \u0437\u0430
-        \u0440\u0443\u043A\u0443. \u041E\u043D\u0430 \u0431\u044B\u043B\u0430 \u0441\u043E
-        \u043C\u043D\u043E\u0439, \u043F\u043E\u043A\u0430 \u044F \u0441\u043F\u0430\u043B\u0430.
-        \u041F\u043E\u0442\u043E\u043C \u043F\u0440\u0438\u0448\u0435\u043B \u0434\u044F\u0434\u044F
-        \u0432 \u0431\u0435\u043B\u043E\u043C \u0445\u0430\u043B\u0430\u0442\u0435,
-        \u0447\u0442\u043E-\u0442\u043E \u0441\u043A\u0430\u0437\u0430\u043B \u0438
-        \u043C\u0430\u043C\u0430 \u043D\u0430\u0447\u0430\u043B\u0430 \u043D\u0430
-        \u043D\u0435\u0433\u043E \u043A\u0440\u0438\u0447\u0430\u0442\u044C. \u041F\u043E\u0442\u043E\u043C
-        \u043E\u043D\u0430 \u0437\u0430\u043F\u043B\u0430\u043A\u0430\u043B\u0430."
+      value: '- I was sleeping, and my mother held my hand. She was with me while
+        I was sleeping. Then came uncle in a white coat.'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1eb89f39326d6944bbc041ecb671b2c5, type: 3}
@@ -3310,11 +3276,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8120743259961051196, guid: 562177c8f42bd3a47aeef7723559c7e7,
-        type: 3}
-      propertyPath: ID
-      value: 4
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 562177c8f42bd3a47aeef7723559c7e7, type: 3}
 --- !u!1 &984848078
@@ -3695,6 +3656,83 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 47
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &1065745025
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1065745026}
+  - component: {fileID: 1065745028}
+  - component: {fileID: 1065745027}
+  m_Layer: 5
+  m_Name: Scores
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1065745026
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1065745025}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1932331280}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 175, y: 189.7}
+  m_SizeDelta: {x: 350, y: 267.5}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1065745027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1065745025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 8a2b9e2a607dd2143b58c44bc32410b4, type: 3}
+    m_FontSize: 25
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 2
+    m_MaxSize: 40
+    m_Alignment: 1
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Succ
+--- !u!222 &1065745028
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1065745025}
+  m_CullTransparentMesh: 0
 --- !u!1 &1073525094
 GameObject:
   m_ObjectHideFlags: 0
@@ -4293,6 +4331,51 @@ Transform:
   m_Father: {fileID: 1669585286}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1207385855
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1207385857}
+  - component: {fileID: 1207385856}
+  m_Layer: 0
+  m_Name: LeaderboardObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1207385856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1207385855}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2ee53d5f07ad8e419f2995b80301f8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  users: {fileID: 1866043307}
+  scores: {fileID: 1065745027}
+--- !u!4 &1207385857
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1207385855}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 19.22424, y: -6.03378, z: -2070.192}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 58
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1323081843
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4665,6 +4748,7 @@ RectTransform:
   - {fileID: 174940105}
   - {fileID: 1813770277}
   - {fileID: 868490787}
+  - {fileID: 1932331280}
   m_Father: {fileID: 0}
   m_RootOrder: 52
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4783,9 +4867,7 @@ PrefabInstance:
     - target: {fileID: 8796924578022187822, guid: 1eb89f39326d6944bbc041ecb671b2c5,
         type: 3}
       propertyPath: phrase
-      value: "- \u041A\u043E\u0433\u0434\u0430 \u043C\u043D\u0435 \u0443\u0436\u0435
-        \u043C\u043E\u0436\u043D\u043E \u0431\u0443\u0434\u0435\u0442 \u043F\u043E\u0438\u0433\u0440\u0430\u0442\u044C
-        \u0432\u043E \u0434\u0432\u043E\u0440\u0435?"
+      value: '- When will I be able to play in the yard? '
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1eb89f39326d6944bbc041ecb671b2c5, type: 3}
@@ -5016,6 +5098,12 @@ PrefabInstance:
       propertyPath: manager
       value: 
       objectReference: {fileID: 1667344567}
+    - target: {fileID: 1201741093, guid: f44ada9b787959044922184690f50ab7, type: 3}
+      propertyPath: m_Text
+      value: 'Press ''r'' to restart
+
+        Press ''b'' to show leaderboard'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f44ada9b787959044922184690f50ab7, type: 3}
 --- !u!224 &1482010294 stripped
@@ -5184,11 +5272,8 @@ PrefabInstance:
     - target: {fileID: 8796924578022187822, guid: 1eb89f39326d6944bbc041ecb671b2c5,
         type: 3}
       propertyPath: phrase
-      value: "- \u0420\u0430\u043D\u044C\u0448\u0435 \u0441 \u043D\u0430\u043C\u0438
-        \u0431\u044B\u043B \u043F\u0430\u043F\u0430. \u0412\u0441\u0435 \u0431\u044B\u043B\u043E
-        \u0445\u043E\u0440\u043E\u0448\u043E, \u043D\u043E \u043F\u043E\u0442\u043E\u043C
-        \u043E\u043D\u0438 \u0441 \u043C\u0430\u043C\u043E\u0439 \u043C\u043D\u043E\u0433\u043E
-        \u0440\u0443\u0433\u0430\u043B\u0438\u0441\u044C. \u041E\u043D \u0443\u0448\u0435\u043B."
+      value: '- Dad used to be with us. Everything was fine, but then she and her
+        mother argued a lot. He left. '
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1eb89f39326d6944bbc041ecb671b2c5, type: 3}
@@ -7631,6 +7716,11 @@ PrefabInstance:
       propertyPath: gameOver
       value: 
       objectReference: {fileID: 174940106}
+    - target: {fileID: 8990252976473620325, guid: aea610a1db7c06d4aad2606189b71099,
+        type: 3}
+      propertyPath: board
+      value: 
+      objectReference: {fileID: 1207385856}
     - target: {fileID: 8990252976473620324, guid: aea610a1db7c06d4aad2606189b71099,
         type: 3}
       propertyPath: m_UsedByComposite
@@ -52841,6 +52931,160 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e943d5489006deb459e2324d4256eff9, type: 3}
+--- !u!1 &1839351572
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1839351573}
+  - component: {fileID: 1839351575}
+  - component: {fileID: 1839351574}
+  m_Layer: 5
+  m_Name: Title
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1839351573
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1839351572}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1932331280}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 681.8, y: 321.4}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1839351574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1839351572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 8a2b9e2a607dd2143b58c44bc32410b4, type: 3}
+    m_FontSize: 45
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 45
+    m_Alignment: 1
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 'HIGH SCORES:'
+--- !u!222 &1839351575
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1839351572}
+  m_CullTransparentMesh: 0
+--- !u!1 &1866043305
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1866043306}
+  - component: {fileID: 1866043308}
+  - component: {fileID: 1866043307}
+  m_Layer: 5
+  m_Name: Names
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1866043306
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1866043305}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1932331280}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: -175, y: 189.7}
+  m_SizeDelta: {x: 350, y: 267.5}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1866043307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1866043305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 8a2b9e2a607dd2143b58c44bc32410b4, type: 3}
+    m_FontSize: 25
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 2
+    m_MaxSize: 40
+    m_Alignment: 1
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Player1
+--- !u!222 &1866043308
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1866043305}
+  m_CullTransparentMesh: 0
 --- !u!1001 &1878306053
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -53053,6 +53297,82 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ffd337b315aea84389be1fe7fecdb02, type: 3}
+--- !u!1 &1932331279
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1932331280}
+  - component: {fileID: 1932331282}
+  - component: {fileID: 1932331281}
+  m_Layer: 5
+  m_Name: LeaderBoard
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1932331280
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1932331279}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1839351573}
+  - {fileID: 1866043306}
+  - {fileID: 1065745026}
+  m_Father: {fileID: 1421056381}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1150, y: 502}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1932331281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1932331279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.8117647}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1932331282
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1932331279}
+  m_CullTransparentMesh: 0
 --- !u!1001 &1938712359
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -53133,10 +53453,8 @@ PrefabInstance:
     - target: {fileID: 8796924578022187822, guid: 1eb89f39326d6944bbc041ecb671b2c5,
         type: 3}
       propertyPath: phrase
-      value: "- \u042F \u043F\u043E\u043C\u043D\u044E, \u043A\u0430\u043A \u043E\u0447\u0435\u043D\u044C
-        \u0434\u043E\u043B\u0433\u043E \u0441\u043F\u0430\u043B\u0430. \u041A\u0430\u043A
-        \u0431\u0443\u0434\u0442\u043E \u044F \u0441\u0442\u043E \u043B\u0435\u0442
-        \u0441\u043F\u0430\u043B\u0430!"
+      value: "- I remember how I slept for a very long time. It\u2019s like I\u2019ve
+        been sleeping for a hundred years!"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1eb89f39326d6944bbc041ecb671b2c5, type: 3}
@@ -53882,6 +54200,49 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scroll View
       objectReference: {fileID: 0}
+    - target: {fileID: 3133024031563750746, guid: 0427550a7d350e7439ade2fd0ea28d57,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3133024030804515389, guid: 0427550a7d350e7439ade2fd0ea28d57,
+        type: 3}
+      propertyPath: m_Text
+      value: "16.07 Oliver called today. He said that he had prepared the documents,
+        I only need to sign. He added that he would send them by mail so as not to
+        yank me. I know why he actually did this: he was afraid that I would bring
+        Anya and he would have to see her, look into her eyes. I don't give a damn
+        about him, but when she asks where dad is, it becomes unbearable.\r\nWhy did
+        this happen to her !? With my lovely girl!\r\n\r\n4.08 She had a seizure again.
+        This time I had to leave her in the hospital for a while. I spent three days
+        at her bedside with almost no movement. It was scary to leave her alone, it
+        seemed, if I went out the door, she would die. It was unbearable to raise
+        her eyes to her, to see her pale, slightly grayish face.\r\nEven now I tremble.
+        I do not know what is worse, write it all in a diary or leave these feelings
+        to rot inside.\r\n\r\n11.10 Finally, Anna was discharged. Doctors say that
+        she made notable progress. To be honest, I don't care. I would be glad if
+        they lied that everything was fine and she got better. I just want to forget
+        all about it. Forget this hell. Stop being afraid every second of your life.
+        To be afraid of something that is even impossible to fight. If it were my
+        disease, I could, I\u2019m sure, I could defeat it. But I can only rush powerlessly,
+        like a wild beast in a cage, forced to watch his cubs painfully killed one
+        by one.\r\nI hope I can fall asleep today.\r\n\r\n19.12 I don't seem to believe
+        in God anymore. Because only a devil creature can make her suffer so much.\r\nWhen
+        I saw her little body convulsing on the floor, everything seemed to break
+        off in me. At that moment, I realized that she was doomed, it was only a matter
+        of time.\r\n\r\n21.01 All good, bad, everything that filled me, all my dreams,
+        aspirations, goals, it all went away. Once I was a bright person, I aspired
+        to live every day as the last. God, how I dreamed about what I could achieve,
+        I was happy every day simply because I live. For me, a necessary and sufficient
+        criterion for happiness was myself, all that filled my inner world.\r\nThe
+        disease took everything. She left only a depressing void inside. I no longer
+        know who I am or what I should do. Sometimes I spend days at her bedside,
+        sometimes I don\u2019t appear on the threshold of the hospital for a week.
+        I hate everyone: myself, because I could not be a good mother, an ex-husband,
+        because he left me alone, because without our support our girl would die.
+        I hate doctors, nurses, God, the world. I hate even Anya for her illness.\r\nI
+        just want it to end.\r\n\r\n03.02 An operation has been going on for an hour..."
+      objectReference: {fileID: 0}
     - target: {fileID: 3133024031563750747, guid: 0427550a7d350e7439ade2fd0ea28d57,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -54424,10 +54785,13 @@ PrefabInstance:
     - target: {fileID: 8796924578022187822, guid: 1eb89f39326d6944bbc041ecb671b2c5,
         type: 3}
       propertyPath: phrase
-      value: "- \u041C\u0430\u043C\u0430 \u0432\u0441\u0435\u0433\u0434\u0430 \u0433\u043E\u0432\u043E\u0440\u0438\u043B\u0430,
-        \u0447\u0442\u043E \u0435\u0441\u043B\u0438 \u044F \u0431\u0443\u0434\u0443
-        \u043D\u0435\u0443\u043A\u043B\u044E\u0436\u0435\u0439 \u0438 \u0440\u0430\u0441\u0442\u044F\u043F\u043E\u0439,
-        \u043E\u043D\u0430 \u043C\u0435\u043D\u044F \u0442\u0435\u0442\u0435 \u043E\u0442\u0434\u0430\u0441\u0442..."
+      value: '- Mom always said that if I was clumsy and messy, she would give me
+        away'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796924578022187809, guid: 1eb89f39326d6944bbc041ecb671b2c5,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: -1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1eb89f39326d6944bbc041ecb671b2c5, type: 3}
