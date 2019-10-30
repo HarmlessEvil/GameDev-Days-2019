@@ -132,6 +132,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scroll View (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3133024031563750746, guid: 0427550a7d350e7439ade2fd0ea28d57,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3133024030804515389, guid: 0427550a7d350e7439ade2fd0ea28d57,
         type: 3}
       propertyPath: m_Text
@@ -846,6 +851,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: LevelCompleted
+      objectReference: {fileID: 0}
+    - target: {fileID: 1927868360954978493, guid: f44ada9b787959044922184690f50ab7,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1927868360954978482, guid: f44ada9b787959044922184690f50ab7,
         type: 3}
@@ -53876,6 +53886,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Scroll View
+      objectReference: {fileID: 0}
+    - target: {fileID: 3133024031563750746, guid: 0427550a7d350e7439ade2fd0ea28d57,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3133024031563750747, guid: 0427550a7d350e7439ade2fd0ea28d57,
         type: 3}
