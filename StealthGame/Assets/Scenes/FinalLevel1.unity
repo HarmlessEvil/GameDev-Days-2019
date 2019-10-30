@@ -53892,6 +53892,44 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3133024030804515389, guid: 0427550a7d350e7439ade2fd0ea28d57,
+        type: 3}
+      propertyPath: m_Text
+      value: "16.07 Oliver called today. He said that he had prepared the documents,
+        I only need to sign. He added that he would send them by mail so as not to
+        yank me. I know why he actually did this: he was afraid that I would bring
+        Anya and he would have to see her, look into her eyes. I don't give a damn
+        about him, but when she asks where dad is, it becomes unbearable.\r\nWhy did
+        this happen to her !? With my lovely girl!\r\n\r\n4.08 She had a seizure again.
+        This time I had to leave her in the hospital for a while. I spent three days
+        at her bedside with almost no movement. It was scary to leave her alone, it
+        seemed, if I went out the door, she would die. It was unbearable to raise
+        her eyes to her, to see her pale, slightly grayish face.\r\nEven now I tremble.
+        I do not know what is worse, write it all in a diary or leave these feelings
+        to rot inside.\r\n\r\n11.10 Finally, Anna was discharged. Doctors say that
+        she made notable progress. To be honest, I don't care. I would be glad if
+        they lied that everything was fine and she got better. I just want to forget
+        all about it. Forget this hell. Stop being afraid every second of your life.
+        To be afraid of something that is even impossible to fight. If it were my
+        disease, I could, I\u2019m sure, I could defeat it. But I can only rush powerlessly,
+        like a wild beast in a cage, forced to watch his cubs painfully killed one
+        by one.\r\nI hope I can fall asleep today.\r\n\r\n19.12 I don't seem to believe
+        in God anymore. Because only a devil creature can make her suffer so much.\r\nWhen
+        I saw her little body convulsing on the floor, everything seemed to break
+        off in me. At that moment, I realized that she was doomed, it was only a matter
+        of time.\r\n\r\n21.01 All good, bad, everything that filled me, all my dreams,
+        aspirations, goals, it all went away. Once I was a bright person, I aspired
+        to live every day as the last. God, how I dreamed about what I could achieve,
+        I was happy every day simply because I live. For me, a necessary and sufficient
+        criterion for happiness was myself, all that filled my inner world.\r\nThe
+        disease took everything. She left only a depressing void inside. I no longer
+        know who I am or what I should do. Sometimes I spend days at her bedside,
+        sometimes I don\u2019t appear on the threshold of the hospital for a week.
+        I hate everyone: myself, because I could not be a good mother, an ex-husband,
+        because he left me alone, because without our support our girl would die.
+        I hate doctors, nurses, God, the world. I hate even Anya for her illness.\r\nI
+        just want it to end.\r\n\r\n03.02 An operation has been going on for an hour..."
+      objectReference: {fileID: 0}
     - target: {fileID: 3133024031563750747, guid: 0427550a7d350e7439ade2fd0ea28d57,
         type: 3}
       propertyPath: m_LocalPosition.x
