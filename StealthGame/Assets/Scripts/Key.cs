@@ -32,9 +32,13 @@ public class Key : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-            other.gameObject.GetComponent<Inventory>().Add(ID, 1);
-            animator.Play("KeyPicking");
-            Destroy(this.gameObject, 0.5f);
+            var inventory = other.gameObject.GetComponent<Inventory>();
+            if (inventory)
+            {
+                inventory.Add(ID, 1);
+                animator.Play("KeyPicking");
+                Destroy(gameObject, 0.5f);
+            }
         }
     }
 }

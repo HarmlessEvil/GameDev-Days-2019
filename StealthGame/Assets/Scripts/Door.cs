@@ -10,16 +10,9 @@ public class Door : MonoBehaviour
 
     void Start()
     {
-        Debug.Log("shit is here!");
         animator = GetComponent<Animator>();
         colld = GetComponent<Collider2D>();
         animator.Play("Idle");
-    }
-
-    void Update()
-    {
-        Debug.Log("Door id is " + ID.ToString());
-
     }
 
     void OnCollisionEnter2D(Collision2D other)
@@ -33,6 +26,5 @@ public class Door : MonoBehaviour
                 colld.isTrigger = true;
             }
         }
-        Debug.Log("Need key: " + ID.ToString());
     }
 }

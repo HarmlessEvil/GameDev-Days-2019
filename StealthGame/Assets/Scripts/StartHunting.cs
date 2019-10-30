@@ -8,16 +8,17 @@ public class StartHunting : MonoBehaviour
 
     void StartTheHunt()
     {
-        Vector3 direction = enemy.GetPlayer().position - transform.position + Vector3.up;
-        Ray ray = new Ray(transform.position, direction);
-        RaycastHit raycastHit;
+        Vector2 direction = enemy.GetPlayer().position - transform.position;
+        RaycastHit2D raycastHit = Physics2D.Raycast(
+            transform.position,
+            direction,
+            float.PositiveInfinity,
+            LayerMask.GetMask("Player", "Obstacles")
+        );
 
-        if (Physics.Raycast(ray, out raycastHit))
+        if (raycastHit && raycastHit.collider.gameObject.CompareTag("Player"))
         {
-            if (raycastHit.collider.transform == enemy.GetPlayer())
-            {
-                enemy.StartHunting();
-            }
+            enemy.StartHunting();
         }
     }
 

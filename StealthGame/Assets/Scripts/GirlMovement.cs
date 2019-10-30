@@ -74,5 +74,6 @@ public class GirlMovement : MonoBehaviour
     public void Die()
     {
         isMovementEnabled = false;
+        movement = Vector2.zero;
     }
 }

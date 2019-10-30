@@ -100,17 +100,18 @@ public class EnemyController : MonoBehaviour
 
     public void CatchPlayer()
     {
-        Vector3 direction = player.transform.position - transform.position + Vector3.up;
-        Ray ray = new Ray(transform.position, direction);
-        RaycastHit raycastHit;
+        Vector2 direction = player.position - transform.position;
+        RaycastHit2D raycastHit = Physics2D.Raycast(
+            transform.position,
+            direction,
+            float.PositiveInfinity,
+            LayerMask.GetMask("Player", "Obstacles")
+        );
 
-        if (Physics.Raycast(ray, out raycastHit))
+        if (raycastHit && raycastHit.collider.gameObject.CompareTag("Player"))
         {
-            if (raycastHit.collider.transform == player.transform)
-            {
-                gameOver.GetComponent<GameOver>().Show();
-                player.gameObject.GetComponent<GirlMovement>().Die();
-            }
+            gameOver.GetComponent<GameOver>().Show();
+            player.gameObject.GetComponent<GirlMovement>().Die();
         }
     }
 }
