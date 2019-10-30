@@ -7,7 +7,7 @@ public class FinishTrigger : MonoBehaviour
     public GameObject player;
     private bool triggered = false;
     public ScoreManager EmptyScoreObj;
-    // Start is called before the first frame update
+    public GameOver gameOver;
 
     void OnTriggerEnter2D(Collider2D obj)
     {
@@ -15,8 +15,9 @@ public class FinishTrigger : MonoBehaviour
         {
             triggered = true;
             EmptyScoreObj.StopTimer();
-            Debug.Log("Finish");
-            Debug.Log(EmptyScoreObj.Score());
+
+            gameOver.Show();
+            player.GetComponent<GirlMovement>().Die();
         }
     }
 }

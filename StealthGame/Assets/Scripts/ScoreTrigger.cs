@@ -11,11 +11,9 @@ public class ScoreTrigger : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D obj)
     {
-        Debug.Log("I'm triggered!");
         if (obj.gameObject == player && !triggered)
         {
             triggered = true;
-            Debug.Log("I'm triggered!KKKK");
             EmptyScoreObj.TriggerTimer(3000);
         }
     }

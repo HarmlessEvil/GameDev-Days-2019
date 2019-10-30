@@ -24,6 +24,8 @@ public class Door : MonoBehaviour
             {
                 animator.Play("DoorOpen");
                 colld.isTrigger = true;
+
+                FindObjectOfType<ScoreManager>().AddScore(10);
             }
         }
     }

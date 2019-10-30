@@ -38,6 +38,8 @@ public class Key : MonoBehaviour
                 inventory.Add(ID, 1);
                 animator.Play("KeyPicking");
                 Destroy(gameObject, 0.5f);
+
+                FindObjectOfType<ScoreManager>().AddScore(30);
             }
         }
     }
