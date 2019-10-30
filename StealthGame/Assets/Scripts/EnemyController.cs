@@ -23,6 +23,8 @@ public class EnemyController : MonoBehaviour
     public PostProcessVolume volume;
     ChromaticAberration ca = null;
 
+    Patrol patrol;
+
     public Transform GetPlayer()
     {
         return player;
@@ -40,6 +42,8 @@ public class EnemyController : MonoBehaviour
         gameOver = GameObject.FindGameObjectsWithTag("GameOver")[0];
 
         volume.profile.TryGetSettings(out ca);
+
+        patrol = GetComponent<Patrol>();
     }
 
     void Update()
@@ -52,6 +56,7 @@ public class EnemyController : MonoBehaviour
 
             if (currentHuntingTime >= maxHuntingTime)
             {
+                patrol.enabled = true;
                 isHunting = false;
                 ai.maxSpeed = 0.5f;
 
@@ -92,6 +97,7 @@ public class EnemyController : MonoBehaviour
             player.gameObject.GetComponent<GirlMovement>().StartChasing();
             soundManager.PlayBattleMusic();
             ca.enabled.value = true;
+            patrol.enabled = false;
         }
 
         isHunting = true;
