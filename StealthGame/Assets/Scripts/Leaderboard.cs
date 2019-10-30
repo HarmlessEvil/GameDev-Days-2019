@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 using System.IO;
-
+using UnityEngine.UI;
+using System.Text.RegularExpressions;
 
 [Serializable]
 public struct Person
@@ -20,11 +21,14 @@ public struct Person
 
 public class Leaderboard : MonoBehaviour
 {
+    public Text users;
+    public Text scores;
+
     private string fileName = "board.json";
     private List<Person> board = new List<Person>();
     private bool updated = false;
 
-    void AddPlayer(string name, int score)
+    public void AddPlayer(string name, int score)
     {
         if (!updated)
         {
@@ -34,8 +38,9 @@ public class Leaderboard : MonoBehaviour
         WriteLeaderboard();
     }
 
-    void ReadLeaderboard()
+    public void ReadLeaderboard()
     {
+        updated = true;
         string filePath = Application.dataPath + fileName;
 
         string json = "";
@@ -44,20 +49,51 @@ public class Leaderboard : MonoBehaviour
             json = File.ReadAllText(filePath);
         }
 
-        board = JsonUtility.FromJson<List<Person>>(json);
-        updated = true;
+        board = new List<Person>();
+        foreach (string person in Regex.Split(json, @"\|"))
+        {
+            if (person == "") break;
+            Person ps = JsonUtility.FromJson<Person>(person);
+            AddPlayer(ps.name, ps.score);
+        }
+
+        board.Sort((p1, p2) => p2.score.CompareTo(p1.score));
     }
 
-    void WriteLeaderboard()
+    public void WriteLeaderboard()
     {
         if (updated)
         {
-            string json = JsonUtility.ToJson(board);
+            string json = "";
+            foreach (Person person in board)
+            {
+                json += JsonUtility.ToJson(person) + "|";
+            }
             string filePath = Application.dataPath + fileName;
             File.WriteAllText(filePath, json);
         }
     }
 
-    void Start() { }
-    void Update() { }
+    public void ApplyTop10()
+    {
+        ReadLeaderboard();
+
+        string userst = "", scorest = "";
+        int count = 0;
+        foreach (Person person in board)
+        {
+            userst += person.name + '\n';
+            scorest += person.score.ToString() + '\n';
+            count++;
+            if (count == 10) break;
+        }
+
+        users.text = userst;
+        scores.text = scorest;
+    }
+
+    void Start()
+    {
+        ReadLeaderboard();
+    }
 }

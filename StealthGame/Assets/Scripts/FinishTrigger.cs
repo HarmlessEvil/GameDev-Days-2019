@@ -8,6 +8,7 @@ public class FinishTrigger : MonoBehaviour
     private bool triggered = false;
     public ScoreManager EmptyScoreObj;
     public GameOver gameOver;
+    public Leaderboard board;
 
     void OnTriggerEnter2D(Collider2D obj)
     {
@@ -18,6 +19,8 @@ public class FinishTrigger : MonoBehaviour
 
             gameOver.Show();
             player.GetComponent<GirlMovement>().Die();
+
+            board.AddPlayer("Player1", EmptyScoreObj.Score());
         }
     }
 }
